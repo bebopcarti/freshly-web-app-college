@@ -32,24 +32,6 @@ As a versatile **Full-Stack Developer** in this group, my responsibilities alter
 - **System Requirements & Design:** Contributed heavily to the foundational Software Requirements Specification (SRS) and UML modeling to map out the system architecture and database entities before coding began.
 - **Agile Delivery:** Actively participated in task delegation, code integration, and milestone tracking to ensure all project requirements were met by the final deadline.
 
-## 📸 Application Previews
-
-*(Place your screenshots in the `WEB_DEMO/` folder)*
-
-### Customer Interface
-| Landing Page | Store & Filtering |
-| :---: | :---: |
-| <img src="./WEB_DEMO/Screenshot 2026-10-09 at 11.41.59.jpg" width="400"/> | <img src="./WEB_DEMO/Screenshot 2026-10-09 at 13.02.24.jpg" width="400"/> |
-
-| QRIS Payment Integration | Order Tracking System |
-| :---: | :---: |
-| <img src="./WEB_DEMO/Screenshot 2026-10-09 at 13.04.06.jpg" width="400"/> | <img src="./WEB_DEMO/Screenshot 2026-10-09 at 13.04.21.jpg" width="400"/> |
-
-### Admin Dashboard Interface
-| Inventory Management | Admin Transaction History |
-| :---: | :---: |
-| <img src="./WEB_DEMO/Screenshot 2026-10-09 at 13.05.10.jpg" width="400"/> | <img src="./WEB_DEMO/Screenshot 2026-10-09 at 13.05.34.jpg" width="400"/> |
-
 ## 🛠️ Getting Started
 
 To run this project locally, clone the repository and set up both the backend and frontend environments.
