@@ -1,0 +1,151 @@
+.store-page {
+  background: #f2e8cf !important;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.store-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.sidebar {
+  width: 250px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0;                 
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.sidebar h3 {
+  color: #386641;
+  margin-bottom: 1rem;
+}
+
+.sidebar h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #6A994E;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.main-content {
+  background: #fff;                
+  padding: 1.5rem;                  
+  border-radius: 0;                 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.18);
+}
+
+.product-img {
+  width: 100%;
+  aspect-ratio: 1 / 1.15;
+  object-fit: cover;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.fav-btn {
+  width: fit-content;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.fav-icon-img {
+  width: 22px;
+  height: 22px;
+  display: flex;
+}
+
+.product-title {
+  margin: 0.7rem 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: #386641;
+  cursor: pointer;
+}
+
+.price-box {
+  margin-top: auto;
+  padding: 0.6rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #BC4749;
+}
+
+.add-cart-btn {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background: #A7C957;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-cart-btn:hover {
+  background: #6A994E;
+}
+
+.price-slider {
+  width: 100%;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.price-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin-top: 0.3rem;
+  opacity: 0.8;
+}
+
+.star-icon {
+    color: #ff7d03;
+}

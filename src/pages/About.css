@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bolded-text {
+  font-weight: bold;
+}
+
+.about-body {
+  display: flex;
+  background-color: #f2e8cf;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  padding: 4rem 0;
+}
+
+.about-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 3rem 5rem;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Banner */
+.banner-img {
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 5rem;
+}
+/* --- */
+
+/* Description */
+.about-desc {
+  margin-top: -0.5rem;
+  background-color: #f2e8cf;
+}
+
+.about-desc h1 {
+  margin-bottom: 2rem;
+}
+/* --- */
+
+/* Advantages */
+.about-adv {
+  background-color: #386641;
+}
+
+.about-adv h1 {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.adv-card-wrapper {
+  display: flex;
+}
+
+.adv-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3rem 3rem;
+  margin: 0 3rem;
+
+  width: 250px;
+
+  background-color: white;
+  border-radius: 25px;
+}
+
+.adv-card * {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.adv-card img {
+  height: 33%;
+}
+
+.adv-card p {
+  height: 33%;
+}
+/* --- */
+
+/* Team */
+.about-team {
+  background-color: #f2e8cf;
+}
+
+.person-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  padding: 3rem 3rem;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.person-card-img {
+  width: 25%;
+}
+
+.person-card-img img {
+  width: 100%;
+}
+
+.person-card-details {
+  padding: 3rem 3rem;
+  width: 75%;
+  height: auto;
+}
+/* --- */
+
+/* Explore */
+.about-explore {
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #a7c958;
+}
+
+.explore-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  width: auto;
+}
+
+.explore-details a {
+  padding: 10px 0;
+  margin-top: 2rem;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.explore-details a:hover {
+  background-color: #386641;
+}
+
+.explore-img {
+  height: 100%;
+}
+/* --- */

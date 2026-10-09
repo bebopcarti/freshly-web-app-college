@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.transact-body {
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  background-color: #f2e8cf;
+  width: 100%;
+  height: fit-content;
+  padding: 4rem 0;
+}
+
+.transact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: fit-content;
+  background-color: #A7C957;
+  border-radius: 50px;
+  padding: 3rem 5rem;
+  margin-top: 5rem;
+}
+
+.transact-wrapper h1 {
+  color: #386641;
+  margin-bottom: 2rem;
+}
+
+.history-table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.history-table th {
+  padding: 2rem;
+  color: white;
+  background-color: #386641;
+  border: 1px solid #303030;
+}
+
+.history-table td {
+  padding: 2rem;
+  text-align: center;
+  background-color: white;   
+  border: 1px solid #303030;
+}
+
+.details-button {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.18s, border-color 0.18s, color 0.18s;
+}
+
+.prog-details-button {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  /* transition: background-color 0.18s, border-color 0.18s, color 0.18s; */
+}
+
+.details-button:hover {
+  border-color: #386641;
+  background-color: #386641;
+  color: #f2e8cf;
+}
+
+.order-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-popup .details-button {
+  position: fixed;
+  top: 90%;
+  width: 25%;
+  background: #386641;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.order-content {
+  background: #FFFBEA;
+  padding: 2rem;
+  width: fit-content;
+  height: 75%;
+  overflow-y: scroll;
+  border-radius: 0;
+  border: 2px solid #A7C957;
+  text-align: center;
+}
+
+.orders-table {
+  border-collapse: collapse;
+}
+
+.orders-table th {
+  padding: 2rem;
+  color: white;
+  background-color: #386641;
+  border: 1px solid #303030;
+}
+
+.orders-table td {
+  padding: 2rem;
+  text-align: center;
+  background-color: white;   
+  border: 1px solid #303030;
+}
+
+.progressSelect {
+  background-color: green;
+}

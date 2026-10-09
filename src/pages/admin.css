@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    transition: .2s linear;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+.admin-body img {
+    width: 100%;
+}
+.admin-body{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2e8cf;
+}
+
+.dashboard1 {
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+.btn-logout {
+    background-color: #6A994E;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.btn-logout:hover {
+    background-color: #6A994E;
+}
+
+.dashboard {
+    display: flex;
+    padding: 2rem 9%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.tambah {
+    display: flex;
+    padding: 2rem 9%;
+    background-color: #A7C957;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,.5);
+}
+.tambah h2 {
+    color: #386641;
+    margin-bottom: 15px;
+}
+.tambah form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tambah input[type="text"], .tambah input[type="number"],
+.tambah input[type="file"] {
+    flex: 1 1 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.tambah button {
+    background-color: #6A994E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.tambah button:hover {
+    background-color: #A7C957;
+}
+
+.produk, .buyer-wl {
+    background-color: #A7C957;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,.5);
+}
+.produk, .buyer-wl h2 {
+    color: #386641;
+    margin-bottom: 15px;
+}
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.admin-table th {
+    background-color: #6A994E;
+    padding: 12px;
+    text-align: left;
+    color: white;
+}
+.admin-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #dabd89;
+    color: black;
+}
+.admin-table td img {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.dlt-btn {
+    background-color: #386641;
+    color: white;
+    border: none;
+    padding: 1px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.dlt-btn:hover {
+    background-color: #6A994E;
+}

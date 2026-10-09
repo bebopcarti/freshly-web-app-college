@@ -1,0 +1,181 @@
+.transaction-container {
+    margin: 0 auto;              /* center horizontally */
+    margin-top: 4.5rem;           /* push below header (header height = 75px) */
+    max-width: 1500px;           /* clean centered layout */
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: #f9f7f3;
+}
+.payment-section {
+    flex: 2;
+    background: #F2E8CF;
+    padding: 20px;
+    border-radius: 0;
+    border: 1px solid #A7C957;
+}
+
+.section-title {
+    margin-bottom: 15px;
+    color: #386641;
+}
+
+.payment-method-box {
+    background: #A7C957;
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 0;
+    border-left: 5px solid transparent;
+}
+
+.payment-method-box:hover {
+    background: #B5D97A;
+}
+
+.payment-method-box.active {
+    border-left: 5px solid #386641;
+    background: #87B357;
+}
+
+.payment-box {
+    background: #F2E8CF;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 0;
+    border: 1px solid #A7C957;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    border: 1px solid #6A994E;
+    border-radius: 0;
+    background: #FFF;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #386641;
+}
+
+.flex-row {
+    display: flex;
+    gap: 20px;
+}
+
+.info-text {
+    color: #386641;
+    padding: 8px 0;
+}
+
+.order-summary {
+    flex: 1;
+    background: #FFFBEA;
+    padding: 20px;
+    border-radius: 0;
+    border: 1px solid #A7C957;
+}
+
+.order-item {
+    background: #A7C957;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 0;
+}
+
+.summary-box {
+    background: #e6e2d3;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+.address-box {
+    height: 90px;
+    resize: none;
+}
+
+.checkout-btn {
+    background: #386641;
+    padding: 12px;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0;
+    margin-top: 15px;
+}
+
+.checkout-btn:hover {
+    background: #6A994E;
+}
+
+.qr-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-content {
+    background: #FFFBEA;
+    padding: 25px;
+    width: 340px;
+    border-radius: 0;
+    border: 2px solid #A7C957;
+    text-align: center;
+}
+
+.qr-image {
+    width: 220px;
+    margin: 15px 0;
+}
+
+.qr-content .close-btn {
+    width: 100%;
+    background: #386641;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background: #6A994E;
+}
+
+.steam-tabs {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.steam-tab {
+    flex: 1;
+    text-align: center;
+    padding: 12px;
+    background: #A7C957;
+    border: 1px solid #6A994E;
+    cursor: pointer;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.steam-tab:hover {
+    background: #B5D97A;
+}
+
+.steam-tab.active {
+    background: #87B357;
+    border-bottom: 3px solid #386641;
+}

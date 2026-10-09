@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.green {
+    color: #386641;
+}
+
+.progress-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    height: 100vh;
+    margin-top: 4rem;
+    /* margin-bottom: 5rem; */
+    padding: 4rem 0;
+    background-color: #f2e8cf;
+}
+
+.progress-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 3rem 5rem;
+  background-color: #6a984d;
+  color: white;
+}
+
+.progress-sections {
+    display: flex;
+    background-color: #f2e8cf;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-details-wrapper {
+    justify-content: space-evenly;
+    padding: 3rem 5rem
+}
+
+.order-details {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-status-wrapper {
+    flex-direction: column;
+    padding: 3rem 5rem;
+}
+
+.progress-wrapper {
+    padding: 3rem 5rem;
+}
+
+.progress-sub-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.progress-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.progress-line {
+    height: 1rem;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 2;
+}
+
+.prog-green {
+    width: 100%;
+    background-color: #6a984d;
+}
+
+.prog-gray {
+    width: 100%;
+    background-color: gray;
+}
+
+
+.progress-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    z-index: 3;
+}
+
+.img-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 1rem;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.img-border.inactive {
+    background-color: gray;
+}
+.img-border.active {
+    background-color: #6a984d;
+}
+
+.img-border img {
+    width: 3rem;
+    height: auto;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.details-container h1 {
+    text-align: center;
+    width: 25%;
+}
